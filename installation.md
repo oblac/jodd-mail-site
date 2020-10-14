@@ -54,7 +54,7 @@ libraryDependencies += "org.jodd" % "jodd-mail" % "x.x.x"
 {% endtab %}
 {% endtabs %}
 
-You will also need the mail implementation:
+You will also need the mail implementation, for example:
 
 ```text
 jakarta.mail:jakarta.mail-api:1.6.5
