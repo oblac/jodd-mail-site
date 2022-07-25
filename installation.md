@@ -18,14 +18,14 @@ description: Tips on how to install Jodd Mail library in your app
 {% endtab %}
 
 {% tab title="Gradle" %}
-```text
-implementation 'org.jodd:jodd-mail.x.x'
+```
+implementation 'org.jodd:jodd-mail:x.x.x'
 ```
 {% endtab %}
 
 {% tab title="Gradl.kt" %}
 ```kotlin
-implementation("org.jodd:jodd-mail.x.x")
+implementation("org.jodd:jodd-mail:x.x.x")
 ```
 {% endtab %}
 
@@ -56,7 +56,7 @@ libraryDependencies += "org.jodd" % "jodd-mail" % "x.x.x"
 
 You will also need the mail implementation, for example:
 
-```text
+```
 jakarta.mail:jakarta.mail-api:1.6.5
 com.sun.mail:jakarta.mail:1.6.5
 ```
@@ -70,6 +70,4 @@ That is all!
 {% hint style="warning" %}
 Snapshots are released manually. Feel free to contact me if you need a new SNAPSHOT release sooner.
 {% endhint %}
-
-
 
